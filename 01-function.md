@@ -15,18 +15,19 @@ function getMyBot() {
     console.log("This is getMyBot function");
     return "Hello World";
 }
-</code></pre>
+</code>
+</pre>
 
 
 #### 호출과 참조
 - getMyBot()은 함수의 바디를 실행하는 호출이고, getMyBot은 참조이며 함수를 실행하지 않는다.  
 - 다른 이름으로 함수 호출
-<code>
 <pre>
+<code>
 const temp = getMyBot;
 temp()
-</pre>
 </code>
+</pre>
 
 
 
